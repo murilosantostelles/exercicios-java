@@ -13,10 +13,12 @@ public class exercicio3 {
         int valorB = leitor.nextInt();
 
         if (valorA == valorB){
-            int soma = valorA + valorB;
-            System.out.println("Soma = "+soma);
+            int valorC = valorA + valorB;
+            System.out.println("Soma (Valor C) = "+valorC);
         }else {
             System.out.println("Os valores A ("+valorA+") e B ("+valorB+") são DIFERENTES.");
+            int valorC = valorA * valorB;
+            System.out.println("Produto (Valor C) = "+valorC);
         }
     }
 }
