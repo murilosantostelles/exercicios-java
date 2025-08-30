@@ -1,10 +1,17 @@
 package exercicio1;
 
+import java.util.Scanner;
+
 public class exercicio1 {
     public static void main(String[] args) {
-        int valorA = 5;
-        int valorB = 20;
-        int valorC = 30;
+        Scanner leitor = new Scanner(System.in);
+
+        System.out.println("Digite o valor A:");
+        int valorA = leitor.nextInt();
+        System.out.println("Digite o valor B:");
+        int valorB = leitor.nextInt();
+        System.out.println("Digite o valor C:");
+        int valorC = leitor.nextInt();
 
         int somaAB = valorA + valorB;
 
@@ -13,7 +20,7 @@ public class exercicio1 {
             System.out.println("A soma entre A e B é menor que o valor C");
             System.out.println(somaAB + " < " + valorC);
         }else {
-            System.out.println("Soma AB >= "+ valorC);
+            System.out.println("Soma (A+B) >= "+ valorC);
         }
     }
 }
