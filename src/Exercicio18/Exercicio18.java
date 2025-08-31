@@ -1,3 +1,5 @@
+package Exercicio18;
+
 public class Exercicio18 {
     public static void main(String[] args) {
         double alturaFrancisco = 150;
