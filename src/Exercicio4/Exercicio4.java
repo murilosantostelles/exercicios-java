@@ -1,8 +1,8 @@
-package exercicio4;
+package Exercicio4;
 
 import java.util.Scanner;
 
-public class exercicio4 {
+public class Exercicio4 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
